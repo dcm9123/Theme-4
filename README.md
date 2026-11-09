@@ -76,6 +76,10 @@ After talking to Mailis and Sharon, I need to manually see the range of answers 
 | Months travelled 3 | 8 | 34,856 are NA |
 | Visitor country 1 | 64 | 34,070 are "", no NAs reported, 1 is unknown, and 1 is other |
 | Visitor country 2 | 10 | 34,891 are "", no NAs reported |
+| Duration of visitors 1 | 5 | Answers (1,2,3,4,5) and 34,254 are NAs |
+| Duration of visitors 2 | 4 | Answers (1,2,3,5) and 34,900 are NAs |
+| No of visitor countries | 4 | Answers (1,2,3,5) and 34,057 are NAs |
+
 | MDR exposure to known case | 4 | 33,814 are "", 380 are unknown, 0 NAs |
 | MDR relationship to case | 36 | 34,767 are "",  no NAs, and some are manually typed with some overlap with one another |
 | Social context venue type list | 262 | 32,934 are "" , no NAs, and some are manually typed with some overlap with one another |
@@ -103,6 +107,65 @@ After talking to Mailis and Sharon, I need to manually see the range of answers 
 | ECM level | 5 | Answers (0,1...5) no NAs |
 | Sex MF | 2 | Answers (0,1) binary, no NAs |
 | Pulm YN | 2 | Answers are binary (0,1), no NAs |
+| Prev diag | 2 | Answers are binary (0,1), 4,406 are NAs |
+| Prev treat | 2 | Answers are binary (0,1), 33,816 are NAs |
+| Chest Xray YN | 2 | Answers are binary (0,1), 20,822 are NAs |
+| Chest CT YN | 2 | Answers are binary (0,1) and 27,874 are NAs |
+| PCR Test YN | 2 | Answers are binary (0,1), and 22,955 are NAs |
+| Micro YN | 2 | Answers are binary (0,1) and 9,409 are NAs |
+| Culture YN | 2 | Answers are binary (0,1), no NAs |
+| Rif diag | 3 | Answers (0,1,3) 15 are NAs |
+| PZA diag | 3 | Answers (0,1,3) and 15 are NAs |
+| INH diag | 3 | Answers (0,1,3) and 15 are NAs |
+| Emb diag | 3 | Answers (0,1,3) and 15 are NAs |
+| RR MDR Diag | 2 | Answers are binary (0,1) and 15 are NAs |
+| preXDR | 2 | Answers are binary (0,1) and 15 are NAs |
+| INH no MDR total | 2 | Answers are binary (0,1) and 15 are NAs |
+| INH total | 3 | Answers (0,1,3) and 15 are NAs |
+| RIF total | 3 | Answers (0,1,3) and 15 are NAs |
+| EMB total | 3 | Answers (0,1,3) and 15 are NAs |
+| PZA total | 3 | Answers (0,1,3) and 15 are NAs |
+| RR MDR total| 2 | Answers are binary (0,1) and 15 are NAs |
+| Pre XDR total | 2 | Answers are binary (0,1) and 15 are NAs |
+| DR MDR cohort | 2 | Answers are binary (0,1) and none are NAs |
+| Final outcome 12 | 6 | Answers (1,2...6) and none are NAs |
+| Final outcome 24 | 6 | Answers (1,2,...6) and 30,825 are NAs |
+| Final outcome 48 | 1 | Answer is 1 or NA, 34,895 NAs in total |
+| Smoking YN | 2 | Answer is binary (0,1) and 3,424 are NAs |
+| Smoking time frame | 4 | Answers (1,2,3,4) and 26,640 are NAs |
+| Alcohol misuse | 2 | Answers are binary (0,1) and 2,396 are NAs |
+| Drug misuse | 2 | Answers are binary (0,1) and 2,559 are NAs |
+| Homeless YN | 2 | Answers are binary (0,1) and 2,484 are NAs |
+| Homeless time frame | 4 | Answers (1,2,3,4) and 32,248 are NAs |
+| Prison YN | 2 | Answers are binary (0,1) and 3,279 are NAs |
+| Prison time frame | 4 | Answers (1,2,3,4) and 33,132 are NAs |
+| IRC Flag | 2 | Answers are binary (2,3) and 34,908 are NAs |
+| Asylum seeker | 2 | Answers are binary (0,1) and 11,114 are NAs |
+| Mental health YN | 1 | Answers are 1 or NA, 33,587 are NA |
+| Diabetes YN | 2 | Answers are binary (0,1) and 1,944 are NA |
+| Hepatitis B YN | 2 | Answers are binary (0,1) and 3,684 are NA |
+| Hepatitis C YN | 2 | Answers are binary (0,1) and 3,714 are NA |
+| Chronic liver disease YN | 2 | Answers are binary (0,1) and 2,512 are NA |
+| Chronic renal disease YN | 2 | Answers are binary (0,1) and 2,268 are NA |
+| Immunosuppression YN | 2 | Answers are binary (0,1) and 2,380 are NA |
+| Transplantation YN | 2 | Answers are binary (0,1) and 32,756 are NA |
+| Other immunosuppression YN | Answers are binary (0,1) and 32,325 are NA |
+| Other immunosuppression cat | 4 | Answers (1,2,3,4) and 32,870 are NA |
+| Repeated episode YN | 2 | Answers are binary (0,1) and no NAs |
+| Overall outcome | 6 | Answers (1,2,...6) and no NAs |
+| Occupation category | 8 | Answers (1,2,...8) and no NAs |
+| Drug time | 0 | All 34,912 are NA |
+| Rec ID | 609 | To look at Excel file in more detail |
+| Sample indicator | 18 | Answers (A,B,C...R) no NAs |
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,7 +187,9 @@ To address:
 To look at "travel country n " deeply later on
 "Notification date" to look at Excel file in more detail
 "Diagnosis date" to look  at Excel file in more detail
-"Start of treatment date", "MDR treatment date", 
+"Start of treatment date", "MDR treatment date", and all that have a date involved
+"Final outcome 12" has no NAs, but Final outcome 24 and 48 do. I could assume that the NAs mean that they fell in the 12 month outcome and thus it is not applicable
+
 
 
 
