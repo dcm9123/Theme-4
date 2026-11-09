@@ -18,7 +18,7 @@ My next step is to create a table that summarizes some of this data by year, and
 After talking to Mailis and Sharon, I need to manually see the range of answers of almost all of the variables (columns) of the metadata file, as it is possible that some fields have a "" instead of an empty or a blank cell, which could bias my results. I did this in R, and I am reporting underneath anything that seems suspicious:
 
 | Metadata field | No. of unique responses | Notes |
-| ------------- | ------------- |
+| ------------- | ------------- | ---------------|
 | Episode no | 6 | A total of 33,624 are actual NA |
 | Shared postcode count | 30 | No NAs on this one |
 | Year | 8 | No NAs on this one |
