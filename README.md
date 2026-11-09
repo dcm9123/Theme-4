@@ -20,7 +20,7 @@ After talking to Mailis and Sharon, I need to manually see the range of answers 
 | Metadata field | No. of unique responses | Notes |
 | ------------- | ------------- |
 | Episode no| 6 | A total of 33,624 are actual NA |
-| Shared postcode count| 30 | No NAs on this one |
+| Shared postcode count | 30 | No NAs on this one |
 | Year | 8 | No NAs on this one |
 | Ethnic group | 15 | All make sense, but there are 351 "unknown" and 0 NAs |
 | Occupation | 3,907 | To look at the Excel file later |
