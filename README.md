@@ -50,6 +50,62 @@ After talking to Mailis and Sharon, I need to manually see the range of answers 
 | DOT received | 3 | Answer (0,1,3) 27,630 are NAs |
 | Chest Xray result | 5 | Answers (0,1,2,3,4) no NAs |
 | Chest CT result | 5 | Answers (0,1,2,3,4), no NAs |
+| Adult contacts identified | 83 | 7,605 NAs |
+| Child contacts identified | 41 | 11,742 NAs |
+| Total contacts identified | 86 | 7,498 NAs |
+| Adult contacts assessed | 65 | 11,772 NAs |
+| Child contacts assessed | 35 | 15,373 NAs |
+| Total contacts assessed | 75 | 11,600 NAs |
+| Adult contacts active TB | 8 | 14,696 NAs |
+| Child contacts active TB | 8 | 17,477 NAs |
+| Total contacts active TB | 10 | 14,457 NAs |
+| Adult contacts LTBI | 22 | 14,255 NAs |
+| Child contacts LTBI | 11 | 17,352 NAs |
+| Total contacts LTBI | 24 | 13,925 NAs |
+| Adult contacts LTBI treat | 19 | 16,359 NAs |
+| Child contacts LTBI treat | 11 | 18,718 NAs |
+| Total contacts LTBI treat | 21 | 15,942 NAs |
+| Adult contacts LTBI treat complete | 14 | 17,313 NAs |
+| Child contacts LTBI treat complete | 11 | 19,371 NAs |
+| Total contacts LTBI treat complete | 17 | 16,857 NAs |
+| To how many countries | 11 | 29,893 NAs |
+| Travel country 1 | 115 | 29,940 are "" instead of NA, and no NA reporeted |
+| Travel country 2 | 68 | 34,538 are "" instead of NA, and no NA reported |
+| Months travelled 2 | 34,682 NAs |
+| Travel country 3 | 35 | 34,820 are "", no NAs reported |
+| Months travelled 3 | 8 | 34,856 are NA |
+| Visitor country 1 | 64 | 34,070 are "", no NAs reported, 1 is unknown, and 1 is other |
+| Visitor country 2 | 10 | 34,891 are "", no NAs reported |
+| MDR exposure to known case | 4 | 33,814 are "", 380 are unknown, 0 NAs |
+| MDR relationship to case | 36 | 34,767 are "",  no NAs, and some are manually typed with some overlap with one another |
+| Social context venue type list | 262 | 32,934 are "" , no NAs, and some are manually typed with some overlap with one another |
+| Resp microscopy | 4 | Answers (1,2,3,4) and 14,917 are NA |
+| Nonresp microscopy | 2 | Answers (0,1), and 26,992 are NA |
+| Resp PCR | 4 | Answers (1,2,3,4) and 26,819 are NA |
+| Nonresp PCR | 2 | Answers (0,1) and 30,501 are NA |
+| Resp culture | 2 | Answers (1,2) and 14,772 are NA |
+| Non resp culture | 1 | Answer is 1 or NA, 18,445 are NA |
+| Notification date | 2,437 | To look at Excel file in more detail |
+| Diagnosis date | 2,787 | To look at Excel file in more detail |
+| Start of treatment date | 2,841 | To look at Excel file in more detail |
+| MDR treatment date | 401 | To look at Excel file in more detail |
+| Date of death | 1,074 | To look at Excel file in more detail |
+| Non resp microscopy date | 2,201 | To look at Excel file in more detail |
+| Resp PCR date | 1,924 | To look at Excel file in more detail |
+| Non resp PCR date | 1,503  | To look at Excel file in more detail |
+| Resp culture date | 2,777  | To look at Excel file in more detail |
+| Non resp culture date | 2,557 | To look at Excel file in more detail |
+| Histology date | 1,315 | To look at Excel file in more detail |
+| Treatment date | 2,869 | To look at Excel file in more detail |
+| Resp microscopy date | 2,770 | To look at Excel file in more detail |
+| Ethgroup | 11 | Answers (1,2,3...11), no NAs |
+| Enhanced case management (ECM) YN | 2 | Answer is binary (0,1), no NAs |
+| ECM level | 5 | Answers (0,1...5) no NAs |
+| Sex MF | 2 | Answers (0,1) binary, no NAs |
+| Pulm YN | 2 | Answers are binary (0,1), no NAs |
+
+
+
 
 
 
@@ -65,7 +121,10 @@ To address:
 "Post-mortem" ask if NAs mean they did not die, and the 0,1 are for those who died
 "Started treatment" ask if there was no follow up for those who had NA
 "Treatment regimen", the sum of treatment regimen does not add up to started treatment, even after adding up the NAs and the 0s as not treated
-
+To look at "travel country n " deeply later on
+"Notification date" to look at Excel file in more detail
+"Diagnosis date" to look  at Excel file in more detail
+"Start of treatment date", "MDR treatment date", 
 
 
 
