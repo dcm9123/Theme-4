@@ -77,6 +77,8 @@ Contact tracing
 | Adult contacts LTBI treat complete | 14 | 17,313 NAs |
 | Child contacts LTBI treat complete | 11 | 19,371 NAs |
 | Total contacts LTBI treat complete | 17 | 16,857 NAs |
+| Postcode out | Too many | To look at Excel file in more detail |
+| Shared postcode ID | Too many | To look at Excel file in more detail |
 | Shared postcode count | 30 | No NAs on this one |
 | To how many countries | 11 | 29,893 NAs |
 | Travel country 1 | 115 | 29,940 are "" instead of NA, and no NA reporeted |
@@ -130,6 +132,8 @@ Disease
 
 | Metadata field | No. of unique responses | Notes |
 | ------------- | ------------- | ---------------|
+| Symptomatic | 2 | A total of 826 were NA |
+| Symptom onset date | 2 | To look at Excel file in more detail |
 | Episode no | 6 | A total of 33,624 are actual NA |
 | Repeated episode YN | 2 | Answers are binary (0,1) and no NAs |
 | Pulm YN | 2 | Answers are binary (0,1), no NAs |
